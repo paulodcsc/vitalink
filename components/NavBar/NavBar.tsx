@@ -14,7 +14,7 @@ import {
   IconHome2,
   IconStethoscope,
 } from '@tabler/icons-react';
-import { Horse } from '@phosphor-icons/react';
+import { Aperture } from '@phosphor-icons/react';
 
 const useStyles = createStyles((theme) => ({
   header: {
@@ -131,7 +131,7 @@ export default function NavBar() {
       <Navbar height={'100vh'} width={{ sm: 300 }} p="md">
         <Navbar.Section grow>
           <Group className={classes.header} position="apart">
-            <Horse size={28} />
+            <Aperture size={28} />
             <Group>
               <Code sx={{ fontWeight: 700 }}>v1.0.0</Code>
               <ColorSchemeToggle size={'sm'} />
