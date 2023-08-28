@@ -2,11 +2,13 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 const doctors = [
   {
+    id: 83127892137,
     personal_info: {
       first_name: 'John',
       last_name: 'Doe',
       gender: 'Male',
       date_of_birth: '1980-05-15',
+      avatar: 'https://i.pravatar.cc/100',
     },
     contact_info: {
       email: 'johndoe@example.com',
@@ -60,11 +62,13 @@ const doctors = [
     },
   },
   {
+    id: 2139091230,
     personal_info: {
       first_name: 'Alice',
       last_name: 'Smith',
       gender: 'Female',
       date_of_birth: '1975-10-20',
+      avatar: 'https://i.pravatar.cc/102',
     },
     contact_info: {
       email: 'alice.smith@example.com',
@@ -118,11 +122,13 @@ const doctors = [
     },
   },
   {
+    id: 665905643,
     personal_info: {
       first_name: 'Michael',
       last_name: 'Johnson',
       gender: 'Male',
       date_of_birth: '1978-03-08',
+      avatar: 'https://i.pravatar.cc/101',
     },
     contact_info: {
       email: 'michael.johnson@example.com',

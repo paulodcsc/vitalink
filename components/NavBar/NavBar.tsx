@@ -112,6 +112,10 @@ export default function NavBar() {
     </Link>
   ));
 
+  if (isMobile) {
+    return;
+  }
+
   return (
     <>
       <Modal
